@@ -1,0 +1,30 @@
+.card{
+    width: 250px;
+    height: 380px;
+    border-radius: 20px !important;
+    .card-body{
+        .card-img-top{
+            object-fit: cover !important;
+            object-position: center !important;
+            border-top-left-radius: 20px;
+        }
+        .card-title{
+            font: 24px/36px Quicksand-Bold;
+            letter-spacing: -0.015em;
+        }
+        .card-text{
+            font: 18px/30px Quicksand-Medium;
+            letter-spacing: -0.015em;
+            color:rgba(0,0,0,0.8);
+        }
+        button{
+            position: absolute;
+            right: 0 !important;
+            left: 0 !important;
+            bottom: 15px;
+            margin: 0 auto;
+        }
+        
+    }
+    
+}
