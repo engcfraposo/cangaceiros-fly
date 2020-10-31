@@ -1,0 +1,38 @@
+@import "../../mixin";
+
+.header{
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    height: 60px;
+    width: 100%!important;
+    background: rgba(255, 255, 255, 0.8) !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    .menu{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        img{
+            align-self: center;
+        }
+        ul{
+            margin-top: 10px;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            padding-left: 71px;
+            li{
+                padding-right: 40px;
+                color: $orange;
+            }
+        }
+    }
+
+}
