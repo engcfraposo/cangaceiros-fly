@@ -4,24 +4,24 @@ import Logo from '../../assets/images/Logo.png';
 import './styles.scss';
 
 const HeaderComponent: React.FC = () => {
-  return (
+    return (
         <div className="header">
             <div className="menu">
-            <img src={Logo} alt="logo"/>
-            <ul>
-                <li>
-                    Features
+                <img src={Logo} alt="logo" />
+                <ul>
+                    <li>
+                        Features
                 </li>
-                <li>
-                    Pricing
+                    <li>
+                        Pricing
                 </li>
-                <li>
-                    Community
+                    <li>
+                        Community
                 </li>
-                <li>
-                    Support
+                    <li>
+                        Support
                 </li>
-            </ul>
+                </ul>
             </div>
             <div className="button">
                 <ButtonBase className="primary">
@@ -32,7 +32,7 @@ const HeaderComponent: React.FC = () => {
                 </ButtonBase>
             </div>
         </div>
-        );
+    );
 }
 
 export default HeaderComponent;
