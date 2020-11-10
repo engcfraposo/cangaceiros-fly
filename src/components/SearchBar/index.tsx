@@ -1,6 +1,7 @@
 import React from 'react';
 import { Form, FormGroup, FormControl } from 'react-bootstrap';
 import ButtonBase from '@material-ui/core/ButtonBase';
+//import { date } from '@material-ui/core/'
 
 import './styles.scss';
 
@@ -14,7 +15,7 @@ const SearchBar: React.FC = () => {
           <FormControl type="text" placeholder="Destino" />
         </FormGroup>
         <FormGroup>
-          <FormControl type="text" placeholder="Datas" />
+          <FormControl type="date" placeholder="Datas" />
           <FormControl type="text" placeholder="Passageiros" />
         </FormGroup>
         <ButtonBase className="secundary">Buscar</ButtonBase>
