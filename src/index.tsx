@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './containers/App';
 
-import './css/fontawesome.min.css';
-import './css/all.min.css';
-import './common.scss';
+import './assets/css/fontawesome.min.css';
+import './assets/css/all.min.css';
+import './assets/scss/common.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-toastify/dist/ReactToastify.css';
 import 'slick-carousel/slick/slick.css';

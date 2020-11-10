@@ -1,6 +1,6 @@
 import React from 'react';
 import ButtonBase from '@material-ui/core/ButtonBase';
-import Logo from '../../images/Logo.png';
+import Logo from '../../assets/images/Logo.png';
 import './styles.scss';
 
 const HeaderComponent: React.FC = () => {

@@ -1,4 +1,4 @@
-@import '../../mixin.scss';
+@import '../../assets/scss/mixin.scss';
 
 .main {
   height: 100vh;
@@ -6,7 +6,7 @@
   .header-container{
     height: 100%;
     background: #E6E6FE;
-    background-image: url('../../images/image_rio.jpg');
+    background-image: url('../../assets/images/image_rio.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;   
