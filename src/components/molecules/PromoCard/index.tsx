@@ -10,7 +10,7 @@ const PromoCard = ({ uf }: PropsCard) => (
     <Card>
       <img src={Rio} alt="rio" />
       <div className="box-text">
-        <p>{uf.name}</p>
+        <p>{uf.nome}</p>
         <span>Consulte os preços</span>
       </div>
     </Card>

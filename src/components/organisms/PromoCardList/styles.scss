@@ -1,3 +1,11 @@
 .promo-list{
     margin: 100px;
+    .slick-prev,
+    .slick-next {
+      margin-top: 5px;
+      &:before {
+        transform: none;
+        color: transparent !important;
+      }
+    }
 }

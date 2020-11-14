@@ -14,14 +14,14 @@ const PromoCardList = () => {
 
   useEffect(() => {
     statesApi.get('')
-      .then((response) => setStates(response.data.geonames));
+      .then((response) => setStates(response.data));
   }, []);
 
   return (
     <Container fluid className="promo-list">
       <Slider {...settings}>
         {allStates.map((uf: States) => (
-          <Col key={uf.geonameId}>
+          <Col key={uf.id}>
             <PromoCard uf={uf} />
           </Col>
         ))}

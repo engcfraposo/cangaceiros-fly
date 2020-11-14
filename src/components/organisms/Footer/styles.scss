@@ -1,0 +1,80 @@
+.footer-master {
+    margin-top: 10%;
+  
+    img{
+      height: auto;
+      max-height: 790px;
+      width: 100%;
+    }
+  
+    .footer {
+      height: 100px;
+      background: #ffffff 0% 0% no-repeat padding-box;
+  
+      .alinhar {
+        padding-left: 27px;
+      }
+  
+      .row {
+        align-items: center;
+      }
+  
+      .center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+  
+      p.primary {
+        color: #C4C4C4 !important;
+        font: 12px Quicksand;
+        margin-bottom: 5px;
+      }
+  
+      p.secondary {
+        color: #000 !important;
+        font: 14px Quicksand-Bold;
+        margin: 0px;
+      }
+  
+    }
+  
+    .logo-calango {
+      height: 37px;
+      width: 170px;
+    }
+  
+    @media only screen and (max-width: 752px) { 
+      .footer {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+      }
+      .row {
+        justify-content: center;
+      }
+  
+      p.primary {
+        font: 10px Quicksand;
+        margin-left: -30px;
+        margin-top: 10px;
+      }
+      p.secondary {
+        width: 200px;
+        padding-bottom: 10px;
+        align-self: center;
+        justify-self: center;
+        text-align: justify;
+      }
+      .logo-calango {
+        width: 190px;
+        display: absolute;
+        margin-bottom: 20px;
+        margin-left: 16%;
+        text-align: center;
+      }
+    }
+  }

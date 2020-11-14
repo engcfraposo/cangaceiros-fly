@@ -1,3 +1,4 @@
+@import '../../../assets/scss/mixin.scss';
   
 .card{
     margin-top: 50px;
@@ -10,13 +11,16 @@
             border-top-left-radius: 20px;
         }
         .card-title{
-            font: 24px/36px Quicksand-Bold;
+            font: 18px/34px Quicksand-Bold;
             letter-spacing: -0.015em;
         }
         .card-text{
             font: 18px/30px Quicksand-Medium;
             letter-spacing: -0.015em;
             color:rgba(0,0,0,0.8);
+            strong{
+                color: $orange;
+            }
         }
         button{
             position: absolute;
