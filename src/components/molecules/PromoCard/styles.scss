@@ -9,9 +9,11 @@
         height: 250px;
         align-items: center;
         justify-content: center;
+        //border-radius: 20px !important;
         img{
             width: 300px;
             height: 250px;
+            border-radius: 20px !important;
             object-fit: cover !important;
             object-position: center !important;
         }
@@ -28,12 +30,17 @@
             p{
                 font: 18px Quicksand-Bold; 
                 color: $orange;
-                margin-right: 15px;
+                position: absolute;
+                width: 120px;
             }
             span{
+                position: absolute;
                 font: 12px Quicksand-Bold; 
+                text-align: end;
                 color: #000;
-                text-align: right;
+                width: 90px;
+                top: 10px;
+                right: 30px;
             }
        }
     }
